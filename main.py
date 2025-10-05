@@ -84,6 +84,11 @@ def main():
     pygame.display.set_caption("Rock-Paper-Scissors - In tribute to Alex Kidd in Miracle World")
     clock = pygame.time.Clock()
 
+    # Load and set window icon
+    icon_path = os.path.join("assets/images", "icon.png")
+    icon = pygame.image.load(icon_path)
+    pygame.display.set_icon(icon)
+
     # Load background and images
     background = load_background()
     images = load_images()
