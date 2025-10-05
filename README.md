@@ -1,4 +1,5 @@
 # Rock-Paper-Scissors Game
+### In tribute to Alex Kidd in Miracle World
 
 A graphical rock-paper-scissors game built with Pygame.
 
